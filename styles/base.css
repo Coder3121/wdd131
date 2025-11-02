@@ -70,6 +70,28 @@ h2 {
     padding-left: 10px;
 }
 
+.bottom-right {
+    float: right;
+    padding-left: 10px;
+}
+
+.content-right {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.content-center {
+    display: grid;
+    height: 80%;
+    align-items: center;
+}
+
+li{
+    padding: 5px 0 ;
+}
+
 footer {
     background-color:rgb(28, 153, 203) ;
     color: white;
