@@ -1,0 +1,72 @@
+#course-title {
+    display: block;
+    text-align: center;
+    padding:2rem;
+    font-size: xx-large;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: teal;
+}
+
+nav a {
+    margin: 1rem;
+    flex: auto;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    color: white;
+    background-color: rgb(28, 153, 203)
+
+}
+
+body {
+     font-family: "Nunito", sans-serif;
+}
+
+main {
+    display: grid;
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+}
+
+h1 {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    background-color: rgb(54, 78, 135);
+    margin: auto;
+    padding: 10px;
+    border-radius: .75rem .75rem 0 0;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: .75rem;
+    background-color: white;
+    margin: 10px;
+}
+
+.card > div {
+    padding: 10px;
+}
+
+
+.middle-right {
+    clear: both;
+}
+
+.content-right {
+    float: right;
+    padding-left: 10px;
+}
