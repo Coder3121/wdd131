@@ -70,3 +70,10 @@ h2 {
     float: right;
     padding-left: 10px;
 }
+
+footer {
+    background-color:rgb(28, 153, 203) ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
