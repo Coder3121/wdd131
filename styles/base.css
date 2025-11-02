@@ -92,6 +92,12 @@ li{
     padding: 5px 0 ;
 }
 
+.yarndings {
+  font-family: "Yarndings 12 ", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 footer {
     background-color:rgb(28, 153, 203) ;
     color: white;
@@ -99,8 +105,4 @@ footer {
     padding: 10px;
 }
 
-.yarndings {
-  font-family: "Yarndings 12 ", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
+
